@@ -32,3 +32,5 @@ class BaseExpenses:
     def __init__(self, people_count, average_payment):
         self.people_count = people_count  # set average people base
         self.average_payment = average_payment  # set average payment for 1 person
+
+# test comment to check synch in two rep
