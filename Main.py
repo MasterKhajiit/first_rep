@@ -14,7 +14,7 @@ class BaseIncome:
         self.people_count = people_count  # set average people base
         self.average_income = average_income  # set average income for 1 person
         self.personal_tax_rate = personal_tax_rate / 100  # set personal tax rate for specific business branch
-        self.organization_tax_rate = organization_tax_rate  # set organization tax rate
+        self.organization_tax_rate = organization_tax_rate / 100 # set organization tax rate
 
     def annual_income(self):
         return self.people_count * (self.average_income * (self.personal_tax_rate + self.organization_tax_rate)
